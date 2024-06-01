@@ -19,7 +19,9 @@ def Score_split(splits):
     return Model.Score(X_predict,y_predict)
 
 Scores = list(map(Score_split,splits))
+
 score_of_splits = zip(Scores, splits)
+
 print(max(score_of_splits))
 plt.plot(splits, Scores)
 plt.show()
