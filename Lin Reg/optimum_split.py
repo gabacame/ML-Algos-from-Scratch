@@ -2,7 +2,7 @@ import pandas as pd
 from LinReg import LinReg 
 import numpy as np
 import matplotlib.pyplot as plt
-from Split import Split
+from utils.Split import Split
 
 data = pd.read_csv('Lin Reg/lin_data.csv')
 
